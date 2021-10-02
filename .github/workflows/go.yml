@@ -1,15 +1,6 @@
 ---
 name: golangci-lint
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-  schedule:
-    # Trigger every day at 16:00 UTC
-    - cron:  '0 16 * * *'
   workflow_dispatch:
 
 jobs:
